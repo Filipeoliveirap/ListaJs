@@ -2,7 +2,7 @@
 
 ## `map()`
 
-O método `map()` é uma função em JavaScript que cria um novo array a partir de um array existente, aplicando uma função em cada elemento. Então, ao inves de iterar manualmente sobre o array usando um laço, é possível simplesmente usar o método Array.map(). O método Array.map() permite  iterar sobre o array e modificar seus elementos usando uma função de callBack. A função de CallBack será executada em cada um dos elementos do array.
+O método `map()` é uma função em JavaScript que cria um novo Array a partir de um Array existente, aplicando uma função em cada elemento. Então, em vez de iterar manualmente sobre o array usando um laço, é possível simplesmente usar o método Array.map(). O método Array.map() permite iterar sobre o array e modificar seus elementos usando uma função de callback. A função de callback será executada em cada um dos elementos do array.
 
 ### Vantagens:
 - Permite transformar arrays de forma eficiente;
@@ -34,7 +34,7 @@ console.log(metade); // Saída: [1, 3, 4, 5]
 
 ## `filter()`
 
-O método `filter()` filtra os elementos do um Array, ele cria um novo Array contendo apenas os elementos do array original que atendem uma determinada condição. Em vez de usar a estrutura `for` com `if`, é possível simplesmente utilizar `Array.filter()`. O método executa uma função de callback para cada item do array, e retorna apenas os elementos para os quais a função retorna `true`.
+O método `filter()` filtra os elementos de um Array, ele cria um novo Array contendo apenas os elementos do array original que atendem uma determinada condição. Em vez de usar a estrutura `for` com `if`, é possível simplesmente utilizar `Array.filter()`. O método executa uma função de callback para cada item do array, e retorna apenas os elementos para os quais a função retorna `true`.
 
 ### Vantagens:
 - Permite filtrar elementos de forma clara e concisa;
@@ -88,7 +88,7 @@ O método `reduce()` reduz os elementos de um Array a um único valor. Ele execu
 **1. Somar todos os números**
 
 const numeros = [1, 2, 3, 4, 5];
-const soma = numeros.reduce((acumulador, valorAtual) => acumulador + valorAtual, 0);
+const soma = numeros.reduce((acc, valorAtual) => acc + valorAtual, 0);
 console.log(soma); // Saída: 15
 
 **2. Calcular média de notas**
