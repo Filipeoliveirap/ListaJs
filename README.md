@@ -2,7 +2,7 @@
 
 ## `map()`
 
-O método `map()` é uma função em JavaScript que cria um novo array a partir de um array existente, aplicando uma função em cada elemento. Então ao inves de iterar manualmente sobre o array usando um laço, é possível simplesmente usar o método Array.map(). O método Array.map() permite  iterar sobre o array e modificar seus elementos usando uma função de callBack. A função de CallBack será executada em cada um dos elementos do array.
+O método `map()` é uma função em JavaScript que cria um novo array a partir de um array existente, aplicando uma função em cada elemento. Então, ao inves de iterar manualmente sobre o array usando um laço, é possível simplesmente usar o método Array.map(). O método Array.map() permite  iterar sobre o array e modificar seus elementos usando uma função de callBack. A função de CallBack será executada em cada um dos elementos do array.
 
 ### Vantagens:
 - Permite transformar arrays de forma eficiente;
@@ -11,7 +11,7 @@ O método `map()` é uma função em JavaScript que cria um novo array a partir 
 
 ### Exemplos:
 
-**1. Elevar os números ao quadrad**
+**1. Elevar os números ao quadrado**
 
 const numeros = [1, 2, 3, 4, 5];
 const quadrados = numeros.map(numero => numero * numero);
@@ -26,7 +26,7 @@ const usuarios = [
 const nomesCompletos = usuarios.map(usuario => `${usuario.nome} ${usuario.sobrenome}`);
 console.log(nomesCompletos); // Saída: ["Susan Giraldi", "Daniel Pereira"]
 
-**3. Metade do números**
+**3. Metade dos números**
 const numeros = [2, 6, 8, 10];
 const metade = numeros.map(numero => numero / 2);
 console.log(metade); // Saída: [1, 3, 4, 5]
